@@ -1,0 +1,9 @@
+modules_header_template_slimmenu_master_title = Souhaitez-vous utiliser Slimmenu comme menu déroulant des catégories dans l'entete ?
+modules_header_template_slimmenu_master_description = Ajouter un menu déroulant responsive design concernant les catégories dans l'entete
+
+module_header_template_slimmenu_master_title = Accueil
+module_header_template_slimmenu_master_products_new = Nouveautés
+module_header_template_slimmenu_master_specials = Promotions
+module_header_template_slimmenu_master_contact = Contactez-nous
+module_header_template_slimmenu_master_products_favorites = Coups de coeur
+module_header_template_slimmenu_master_blog = Blog

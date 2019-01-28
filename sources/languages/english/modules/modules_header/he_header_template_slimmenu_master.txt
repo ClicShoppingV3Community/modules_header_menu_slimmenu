@@ -1,0 +1,10 @@
+
+ modules_header_template_slimmenu_master_title = Do you want install Slimmenu Menu horizontal categories ?
+ modules_header_template_slimmenu_master_description = Display a horizontal menu responsive with the categories
+  
+ module_header_template_slimmenu_master_title = Index
+ module_header_template_slimmenu_master_products_new = Products New
+ module_header_template_slimmenu_master_specials = Specials
+ module_header_template_slimmenu_master_contact = Contact Us
+ module_header_template_slimmenu_master_products_favorites = Favorites
+ module_header_template_slimmenu_master_blog = Blog
