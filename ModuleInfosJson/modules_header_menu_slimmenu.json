@@ -14,7 +14,7 @@
   "type_module":      "template",
   "dependance":       "",
   "description":        "This module allow to display a responsive design menu (and sub menu) with the products categories in the header in the front Office",
-  "image":            "ModuleInfosJson/slimenu.png",
+  "image":            "ModuleInfosJson/image.png",
 
   "authors": [
     {
