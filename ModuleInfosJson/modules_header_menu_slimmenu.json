@@ -4,7 +4,7 @@
   "vendor":			"modules_header",
   "is_free":   "Yes",
   "website_link_to_sell" : "",
-  "version":			"1.0.1",
+  "version":			"1.0.2",
   "req_core_version":	3.0,
   "license":			"GPL 2 - MIT",
   "tag":			    "template, categories, menu, frontoffice, header",

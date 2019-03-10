@@ -72,6 +72,7 @@
                       where c.categories_id = cd.categories_id
                       and cd.language_id = :languages_id
                       and virtual_categories = 0
+                      and c.status = 1
                       ' . $parent_query . '
                       order by sort_order,
                       cd.categories_name
