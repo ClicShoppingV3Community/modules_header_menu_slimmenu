@@ -216,7 +216,7 @@
         $header_template = '<!-- header slimemenu start -->' . "\n";
 
         ob_start();
-        require($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/header_template_slimmenu_master'));
+        require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/header_template_slimmenu_master'));
         $header_template .= ob_get_clean();
 
         $header_template .= '<!-- header slimmenu end -->' . "\n";
