@@ -94,16 +94,16 @@ ul.slimmenu li {
     background-color: #000; /*fonds menu 1er niveau*/
 }
 
-ul.slimmenu > li { 
-  margin-right: -5px; 
+ul.slimmenu > li {
+  margin-right: -5px;
 /*  border-left: 1px solid #7f736f */
 }
 
-ul.slimmenu > li:first-child { 
+ul.slimmenu > li:first-child {
     border-left: 0
 }
 
-ul.slimmenu > li:last-child { 
+ul.slimmenu > li:last-child {
     margin-right:  0
 }
 
@@ -137,7 +137,7 @@ ul.slimmenu li a:hover {
 }
 
 ul.slimmenu li .sub-collapser {
-    
+
 /*    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);*/
     position: absolute;
     right: 0;
@@ -171,7 +171,7 @@ ul.slimmenu li ul {
     list-style-type: none;
 }
 
-ul.slimmenu li ul li { 
+ul.slimmenu li ul li {
   background-color: #000; /*  fonds sous menu */
   width: 21.25rem; /* taille sous menu*/
   -webkit-border-radius: 5px;
@@ -240,7 +240,7 @@ ul.slimmenu.collapsed li > ul {
 
 span.slimmenuTitle {
   width: 6.25rem;
-} 
+}
 
 span.slimmenuContact {
   width: 6.25rem;
