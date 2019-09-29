@@ -192,7 +192,7 @@
       $content_width = (int)MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_CONTENT_WIDTH;
 
       $footer_tag = '<script src="' . CLICSHOPPING::link($CLICSHOPPING_Template->getTemplateDefaultJavaScript('slimmenu-master/jquery.slimmenu.min.js')) . '"></script>' . "\n";
-      $footer_tag .= '<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>' . "\n";
+      $footer_tag .= '<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>' . "\n";
       $footer_tag .= '<script> ';
       $footer_tag .= '$(\'ul.slimmenu\').slimmenu( ';
       $footer_tag .= '{ ';
