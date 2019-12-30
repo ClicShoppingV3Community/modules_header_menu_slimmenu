@@ -237,10 +237,10 @@
       $CLICSHOPPING_Db = Registry::get('Db');
 
       $CLICSHOPPING_Db->save('configuration', [
-          'configuration_title' => 'Souhaitez-vous activer ce module ?',
+          'configuration_title' => 'Do you want to enable this module ?',
           'configuration_key' => 'MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_STATUS',
           'configuration_value' => 'True',
-          'configuration_description' => 'Souhaitez vous activer ce module à votre boutique ?',
+          'configuration_description' => 'Do you want to enable this module in your shop ?',
           'configuration_group_id' => '6',
           'sort_order' => '1',
           'set_function' => 'clic_cfg_set_boolean_value(array(\'True\', \'False\'))',
@@ -249,10 +249,10 @@
       );
 
       $CLICSHOPPING_Db->save('configuration', [
-          'configuration_title' => 'Veuillez indiquer la largeur du contenu',
+          'configuration_title' => 'Please indicate the width of the content',
           'configuration_key' => 'MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_CONTENT_WIDTH',
           'configuration_value' => '12',
-          'configuration_description' => 'Veuillez indiquer une largeur d\'affichage',
+          'configuration_description' => 'Please specify a display width',
           'configuration_group_id' => '6',
           'sort_order' => '2',
           'set_function' => 'clic_cfg_set_content_module_width_pull_down',
@@ -286,10 +286,10 @@
 
 
       $CLICSHOPPING_Db->save('configuration', [
-          'configuration_title' => 'Ordre de tri d\'affichage',
+          'configuration_title' => 'Sort order',
           'configuration_key' => 'MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_SORT_ORDER',
           'configuration_value' => '10',
-          'configuration_description' => 'Ordre de tri pour l\'affichage (Le plus petit nombre est montré en premier)',
+          'configuration_description' => 'Sort order of display. Lowest is displayed first. The sort order must be different on every module',
           'configuration_group_id' => '6',
           'sort_order' => '6',
           'set_function' => '',
@@ -298,7 +298,7 @@
       );
 
       $CLICSHOPPING_Db->save('configuration', [
-          'configuration_title' => 'Veuillez indiquer ou la boxe doit s\'afficher',
+          'configuration_title' => 'Please indicate where boxing should be displayed',
           'configuration_key' => 'MODULE_HEADER_TEMPLATE_SLIMMENU_MASTER_DISPLAY_PAGES',
           'configuration_value' => 'all',
           'configuration_description' => 'Sélectionnez les pages o&ugrave; la boxe doit être présente',
