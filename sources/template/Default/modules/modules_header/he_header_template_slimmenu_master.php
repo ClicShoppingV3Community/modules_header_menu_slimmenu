@@ -34,7 +34,7 @@
       $this->classname_for_selected = '';
       $this->classname_for_parent = '';
 
-      if ( defined('MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_STATUS') ) {
+      if (defined('MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_STATUS')) {
         $this->sort_order = MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_SORT_ORDER;
         $this->enabled = (MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_STATUS == 'True');
         $this->pages = MODULE_HEADER_TEMPLATE_SLIMMENU_MASTER_DISPLAY_PAGES;
@@ -211,7 +211,7 @@
 
       $categories_string = $this->getCategoriesUlList();
 
-      if  ( MODE_VENTE_PRIVEE == 'false' || (MODE_VENTE_PRIVEE == 'true' && $CLICSHOPPING_Customer->isLoggedOn() )) {
+      if  ( MODE_VENTE_PRIVEE == 'false' || (MODE_VENTE_PRIVEE == 'true' && $CLICSHOPPING_Customer->isLoggedOn())) {
 
         $header_template = '<!-- header slimemenu start -->' . "\n";
 
