@@ -14,8 +14,8 @@
   use ClicShopping\OM\HTML;
 
   class he_header_template_slimmenu_master {
-    public $code;
-    public $group;
+    public string $code;
+    public string $group;
     public string $title;
     public string $description;
     public ?int $sort_order = 0;
@@ -34,7 +34,7 @@
       $this->classname_for_selected = '';
       $this->classname_for_parent = '';
 
-      if (defined('MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_STATUS')) {
+      if (\defined('MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_STATUS')) {
         $this->sort_order = MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_SORT_ORDER;
         $this->enabled = (MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_STATUS == 'True');
         $this->pages = MODULE_HEADER_TEMPLATE_SLIMMENU_MASTER_DISPLAY_PAGES;
@@ -124,7 +124,7 @@
 
       $list = $table[$parcat];
 
-      if (!is_null($list)) {
+      if (!\is_null($list)) {
         $output = '';
 
         foreach ($list as $key => $val) {
@@ -140,7 +140,7 @@
             $GLOBALS['this_level'] = $level;
           } //end if
 
-          if (isset($cPath_array) && in_array($key, $cPath_array) && $this->classname_for_selected) {
+          if (isset($cPath_array) && \in_array($key, $cPath_array) && $this->classname_for_selected) {
             $this_cat_class = ' class="' . $this->classname_for_selected . '"';
           } else {
             $this_cat_class = '';
@@ -157,7 +157,7 @@
 
           } else {
             $GLOBALS['cPath_set'][$level] = $key;
-            $cPath_new =  implode('_', array_slice($GLOBALS['cPath_set'], 0, ($level+1)));
+            $cPath_new =  implode('_', \array_slice($GLOBALS['cPath_set'], 0, ($level+1)));
           }
 
           if ($CLICSHOPPING_Category->getHasSubCategories($key) && $this->classname_for_parent) {
@@ -230,7 +230,7 @@
     }
 
     public function check() {
-      return defined('MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_STATUS');
+      return \defined('MODULES_HEADER_TEMPLATE_SLIMMENU_MASTER_STATUS');
     }
 
     public function install() {
